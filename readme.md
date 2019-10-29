@@ -16,7 +16,7 @@ An bot that help users to response to their favorite authors' tweets. It spread 
 2.  Let's say you want to use the current developer account to response to other people. In this case, you can generate <u>access token</u> and <u>access token secret</u> for your current account in the same page you just generate API key and API secret key.  Generate access token and access token secret and add them to `token_db.csv` in the format of `{access token},{access token secret}`; one account authorization in a line.
 3. Add the twitter accounts which your want to response to their tweets into `config.yaml`.  Copy the @username (name **after** "@", e.g., realDonaldTrump for [Donald Trump](https://twitter.com/realdonaldtrump)) and put it in the list called `track_uid`. 
 4. Response to the tweets automatically with `Responser`scripts by simply execute the following `Responser` script in command line.
-   - `retweet.py`: **retweet** newest 10 tweets post by `track_uids`to your twitter account. 
+   - `retweet.py`: **retweet** newest 10 tweets post by `track_uid` using the accunt authorizaiton in `token_db.csv`. 
 
 ## Advance Use: collect user authorization through the web
 
