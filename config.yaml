@@ -1,0 +1,22 @@
+
+
+# api config
+api:
+  - api_key: ''
+    api_secret_key: ''
+
+# behavior       
+track_uid: ['HillaryClinton','realDonaldTrump']
+latest: 10
+
+# resouce config
+db_path: './db.sqlite3'
+token_db_path: './token_db.csv'
+
+# flask authorization collector setting 
+collector:
+  protocol: 'http'
+  ip: '127.0.0.1'
+  port: 5000
+  auth_endpoint: '/auth'
+  token_endpoint: '/tokens'
